@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1>Score the goal: <%= thingVar %> </h1>
+<%if(thingVar.toLowerCase() === "mane"){ %>
+<p>He will score tonight.</p>
+<% } else { %>
+ <p>The score will be 2-0</p>
+<% } %>
+<p>this is from the bobby.ejs</p>
+<% include partials/footer %>
